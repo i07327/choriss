@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@drawable/text_month_line"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/previous_month_button"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="fill"
+            android:text="前の月" />
+
+        <TextView
+            android:id="@+id/header_month_text"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:gravity="fill"
+            android:text="2013年10月"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/next_month_id"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="fill"
+            android:text="次の月" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/header_su_text"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_week_line"
+            android:gravity="center"
+            android:text="日" />
+
+        <TextView
+            android:id="@+id/header_mo_text"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_week_line"
+            android:gravity="center"
+            android:text="月" />
+
+        <TextView
+            android:id="@+id/header_tu_text"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_week_line"
+            android:gravity="center"
+            android:text="火" />
+
+        <TextView
+            android:id="@+id/header_we_text"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_week_line"
+            android:gravity="center"
+            android:text="水" />
+
+        <TextView
+            android:id="@+id/header_th_text"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_week_line"
+            android:gravity="center"
+            android:text="木" />
+
+        <TextView
+            android:id="@+id/header_fr_text"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_week_line"
+            android:gravity="center"
+            android:text="金" />
+
+        <TextView
+            android:id="@+id/header_sa_text"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/text_week_line"
+            android:gravity="center"
+            android:text="土" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal" >
+
+        <fragment
+            android:id="@+id/fragment_calender_cell"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell2"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell3"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell4"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell5"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell6"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell7"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal" >
+
+        <fragment
+            android:id="@+id/fragment_calender_cell8"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell9"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell10"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell11"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell12"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell13"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell14"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal" >
+
+        <fragment
+            android:id="@+id/fragment_calender_cell15"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell16"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell17"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell18"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell19"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell20"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell21"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal" >
+
+        <fragment
+            android:id="@+id/fragment_calender_cell22"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell23"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell24"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell25"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell26"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell27"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell28"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal" >
+
+        <fragment
+            android:id="@+id/fragment_calender_cell29"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell30"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell31"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell32"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell33"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell34"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell35"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal" >
+
+        <fragment
+            android:id="@+id/fragment_calender_cell36"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell37"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell38"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell39"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell40"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell41"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <fragment
+            android:id="@+id/fragment_calender_cell42"
+            android:name="com.example.test.choliss.fragment.FragmentMonthCalenderCell"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>
