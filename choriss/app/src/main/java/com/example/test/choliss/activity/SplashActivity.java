@@ -83,7 +83,7 @@ public class SplashActivity extends BaseActivity {
 		@Override
 		protected void onPostExecute(Long result) {
 			// インテントのインスタンス生成
-			Intent intent = new Intent(context, MonthCalenderActivity.class);
+			Intent intent = new Intent(context, SettingActivity.class);
 			// 次画面のアクティビティ起動
 			startActivity(intent);
 		}
